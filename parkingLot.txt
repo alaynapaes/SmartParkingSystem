@@ -1,0 +1,6 @@
+===== CURRENT PARKING LOT STATUS =====
+Total Slots: 10
+Available Slots: 9
+Parked Vehicles: 1
+
+Truck | 56 | Hours: 35

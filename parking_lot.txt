@@ -1,0 +1,15 @@
+Parked: Car ABC123
+Parked: Bike XYZ789
+Parked: Truck TRK555
+Exited: Bike XYZ789
+Exited: Truck TRK555
+Parked: Car ABC123
+Parked: Bike XYZ789
+Parked: Truck TRK555
+Exited: Bike XYZ789
+Exited: Truck TRK555
+Parked: Car ABC123
+Parked: Bike XYZ789
+Parked: Truck TRK555
+Exited: Bike XYZ789
+Exited: Truck TRK555

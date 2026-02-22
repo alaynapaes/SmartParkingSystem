@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Parking System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f6f8;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      margin: 15px auto;
+      width: 350px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, button {
+      width: 100%;
+      padding: 8px;
+      margin: 6px 0;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    pre {
+      background: #eee;
+      padding: 10px;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+
+<h1>🚗 Smart Parking System</h1>
+
+<div class="box">
+  <h3>Park Vehicle</h3>
+  <select id="type">
+    <option>Car</option>
+    <option>Bike</option>
+    <option>Truck</option>
+  </select>
+  <input id="plate" placeholder="Plate Number">
+  <input id="hours" type="number" placeholder="Hours Parked">
+  <button onclick="parkVehicle()">Park</button>
+</div>
+
+<div class="box">
+  <h3>Remove Vehicle</h3>
+  <input id="removePlate" placeholder="Plate Number">
+  <label>
+    <input type="checkbox" id="member"> Membership (20% discount)
+  </label>
+  <button onclick="removeVehicle()">Remove</button>
+</div>
+
+<div class="box">
+  <h3>Parking Status</h3>
+  <button onclick="getStatus()">View Status</button>
+  <pre id="status"></pre>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
